@@ -8,6 +8,7 @@ import AddPost from './components/admin/AddPost';
 import Login from './components/Login';
 import Register from './components/Register';
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
