@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "An Educational Analysis of Inference",
+        "description": "This report introduces key AI inference metrics, throughput, and latency, comparing specialized processors and NVIDIA's H100 GPU to highlight performance benefits for real-time applications.",
+        "tags": ["Large Language Model", "Cerebras", "NVIDIA", "GPU", "Inference"],
+        "date": "2024-09-25",
+        "pdfLink": "/assets/BitOoda_AI_Research_Inference_09252024.pdf",
+        "imageLink": "/assets/BitOoda_AI_Research_Inference_09252024.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Understanding HPC Hardware for Modern AI Computing",
+        "description": "This report analyzes the critical role of fast GPU communication in HPC for AI, examining NVIDIA's solutions and future innovations like the Blackwell architecture to enhance AI training and inference efficiency.",
+        "tags": ["Large Language Model", "Cerebras", "NVIDIA", "GPU", "Inference"],
+        "date": "2024-09-30",
+        "pdfLink": "/assets/BitOoda_AI_Research_HPC_Hardware_for_Modern_AI_Computing_09302024.pdf",
+        "imageLink": "/assets/BitOoda_AI_Research_HPC_Hardware_for_Modern_AI_Computing_09302024.jpg"
+    },
+    {
+        "id": 3,
+        "title": "State of Large Language Models",
+        "description": "This report compares open-source and closed-source AI models, examining their benefits, challenges, and potential influence on the future AI market.",
+        "tags": ["META", "LLAMA", "OpenAI", "Large Language Model"],
+        "date": "2024-10-07",
+        "pdfLink": "/assets/BitOoda_AI_Research_State_of_Large_Language_Models_10072024.pdf",
+        "imageLink": "/assets/BitOodaLLM.jpg"
+    },
+    {
+        "id": 4,
+        "title": "The Crash of the H100 Market",
+        "description": "This report examines recent shifts in the GPU market, focusing on changing demand for NVIDIA's H100 amid technological advances, open-source AI models, and market recalibrations.",
+        "tags": ["META", "Mining", "AI Hardware", "Cerebras", "Groq", "Large Language Model"],
+        "date": "2024-10-16",
+        "pdfLink": "/assets/BitOoda_AI_Research_H100_Market_Crash_10162024.pdf",
+        "imageLink": "/assets/BitOoda_AI_Research_H100_Market_Crash_10162024.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Art of Prompt Engineering",
+        "description": "This report explores advanced prompt engineering techniques, providing tailored strategies to maximize AI language model capabilities in varied contexts.",
+        "tags": ["Large Language Model", "Prompt", "ChatGPT", "Claude", "Perplexity", "Prompt Engineering"],
+        "date": "2024-10-21",
+        "pdfLink": "/assets/BitOoda_AI_Research_Prompt_Engineering_10212024.pdf",
+        "imageLink": "/assets/BitOodaPromptEngineering.jpg"
+    },
+    {
+        "id": 6,
+        "title": "NVIDIA H100: Breaking Down H100 GPUs and Servers",
+        "description": "This report examines NVIDIA's H100 chip and server architecture, focusing on improvements in tensor performance, memory, and cooling that elevate AI workload efficiency and scalability.",
+        "tags": ["H100", "GPU", "Node", "Server", "Infiniband", "Supermicro", "Dell"],
+        "date": "2024-10-25",
+        "pdfLink": "/assets/BitOoda_AI_Research_Breaking_Down_NVIDIA_H100_10252024.pdf",
+        "imageLink": "/assets/BitOoda_AI_Research_Breaking_Down_NVIDIA_H100_10252024.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Cloud Infrastructure for AI Workloads",
+        "description": "As CSPs offer diverse options for AI compute, this report guides companies on selecting optimal cloud services to avoid suboptimal decisions in an increasingly competitive landscape.",
+        "tags": ["Cloud", "AWS", "Containerization", "Kubernetes"],
+        "date": "2024-11-04",
+        "pdfLink": "/assets/BitOoda_AI_Research_Cloud_Infrastructure_for_AI_Workloads_11112024.pdf",
+        "imageLink": "/assets/BitOoda_AI_Research_Cloud_Infrastructure_for_AI_Workloads_11112024.jpg"
+    },
+    {
+        "id": 8,
+        "title": "The Age of Agentic AI",
+        "description": "This report educates the reader on how you can optimize your Enterprise Value using AI Agents. It aims to educate readers on how agentic systems work and the various ways it can add value to your organization.",
+        "tags": ["Agents", "AI Agents", "LLM", "Enterprise Value", "Vector Databases"],
+        "date": "2024-11-04",
+        "pdfLink": "/assets/BitOoda_AI_Research_Age_of_Agentic_AI_11192024.pdf",
+        "imageLink": "/assets/BitOodaAgenticAI.jpg"
+    }
+]

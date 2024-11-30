@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "title": "Cost of Ownership Model for HPC Deployments",
+        "description":"This model provides a comprehensive analysis of the total cost of ownership (TCO) for HPC infrastructure. It enables customers to compare the financial impact of colocation versus full ownership of HPC resources. With tailored recommendations, the model considers all facets of HPC costs, including hardware, infrastructure, and maintenance. This model also suggests optimal configurations and supporting infrastructure, like rack density, cooling solutions, and backup generators, to minimize TCO and maximize operational efficiency.",
+        "tags": ["Colocation Projections vs. Ownership Costs", 
+                "HPC Hardware Costs + Recommendations", 
+                "Supporting Infrastructure + Recommendations", 
+                "Target Customer (Buyer) Recommendations + Revenue Models", 
+                "Bare Metal vs. Software Solutions"
+                ],
+        "tagscontent": ["Breaks down the long-term financial implications of colocation versus ownership, considering operational expenses, growth scalability, and associated maintenance.",
+                        "Evaluates the latest HPC hardware options, providing cost comparisons and recommendations tailored to specific workload needs.",
+                        "Analyzes necessary supporting infrastructure, including racks, advanced cooling solutions, and power backup systems, with guidance on selecting cost-effective, high-performance options.",
+                        "Identifies target customer segments and suggests monetization strategies for HPC deployments, including leasing options, as-a-service models, and specialized workload pricing.",
+                        "Provides projections on TCO differences between bare metal setups and software-defined HPC environments, considering scalability, flexibility, and long-term value."
+                        ],
+        "keyBenfits": ["Helps customers make informed financial decisions on HPC investments.",
+                        "Ensures tailored infrastructure recommendations to optimize costs and performance.",
+                        "Enables the development of effective revenue models to maximize ROI from HPC resources."
+                        ]
+    },
+    
+    {
+        "id": 2,
+        "title": "Location Services Model for HPC Site Selection and Development",
+        "description":"This model offers a data-driven approach to selecting optimal locations for HPC colocation facilities, considering critical factors like power availability, fiber connectivity, and local talent pools. By assessing real estate opportunities, it provides strategic recommendations on location choices that align with customer goals and infrastructure needs. The model also supports clients through the construction process, from CAPEX estimates to equipment procurement, and identifies potential partners or buyers to enhance project ROI.",
+        "tags": ["Colocation Site Selection", 
+                "Real Estate Opportunities", 
+                "Construction Solutions and CAPEX", 
+                "Target Partner/Buyer Procurement", 
+                "Financial Modeling", 
+                "Equipment Procurement"
+                ],
+        "tagscontent": ["Analyzes and scores potential sites based on key infrastructure requirements, including power capacity, data connectivity, and workforce availability, ensuring a high-performance HPC setup.",
+                        "Highlights prime real estate options with favorable power and fiber infrastructure, as well as access to technical talent, balancing cost efficiency with strategic positioning.",
+                        "Provides budget estimates and recommendations for construction phases, covering everything from foundational build-out to future expansion needs.",
+                        "Identifies potential business partners or buyers for the location, including adjacent industries and strategic alliances, to maximize the economic impact of the site.",
+                        "Develops robust financial models for each location, encompassing initial investment, operational costs, and long-term revenue potential.",
+                        "Offers procurement guidance on critical equipment like servers, cooling systems, and network infrastructure, ensuring cost-effective and high-performance setup."
+                    ],
+        "keyBenfits": ["Streamlines the process of selecting and developing HPC sites with comprehensive financial and technical insights.",
+                        "Reduces risk by evaluating all relevant factors for long-term infrastructure success.",
+                        "Supports customer goals with actionable recommendations for construction, partnership, and procurement, helping optimize CAPEX and operational efficiencies."
+                    ]
+    },
+
+    {
+        "id": 3,
+        "title": "Model Tracking and Evolution for HPC and AI Research",
+        "description":"This model provides in-depth tracking and analysis of prominent AI and biological models, focusing on their evolution over time. It offers insights into the hardware used, the data and compute requirements, and notable advancements in training techniques. By monitoring trends and performance benchmarks, the model supports informed decision-making for future HPC investments, including projections on scaling requirements, financial costs, and anticipated technological advancements.",
+        "tags": ["Prominent LLMs and Biological Models", 
+                "Hardware, Data, and Compute Requirements", 
+                "Notable Research Notes and Techniques", 
+                "Projections on Model Growth", 
+                "Financial Costs for Training", 
+                "Performance Benchmarks", 
+                "Future Projections Based on Current Data"
+                ],
+        "tagscontent": ["Tracks leading language models and specialized biological models, analyzing their structure, applications, and impact across industries.", 
+                        "Details the specific hardware setups, datasets, and compute power required for training each model, helping users understand resource demands.", 
+                        "Highlights groundbreaking methods used in model training, including efficient scaling techniques, model compression, and optimized data usage.", 
+                        "Forecasts future model sizes and data requirements, offering strategic insights into anticipated scaling needs and technological developments.", 
+                        "Estimates the costs associated with training each model, broken down by hardware, data preparation, and compute time, to support budgeting and financial planning.", 
+                        "Provides performance comparisons across models, tracking improvements in speed, accuracy, and resource efficiency over time.", 
+                        "Uses available data to project model growth trends, compute demands, and potential cost trajectories, aiding customers in strategic planning for future investments."
+                    ],
+        "keyBenefits": ["Assists in evaluating and planning for future AI and biological model investments with data-driven insights.", 
+                        "Provides valuable performance benchmarks and financial analysis to guide HPC resource allocation.", 
+                        "Supports strategic decision-making for hardware upgrades and capacity planning by anticipating future compute requirements."]
+    },
+
+    {
+        "id": 4,
+        "title": "HPC Hardware Tracking and Analysis",
+        "description":"This model delivers a comprehensive overview of the latest HPC hardware landscape, focusing on performance metrics critical for running Large Language Models (LLMs) and advanced algorithms. It tracks GPUs from leading manufacturers like NVIDIA, AMD, and Intel, as well as specialized hardware solutions from companies such as Groq, Cerebras, and SambaNova. By analyzing performance, software compatibility, and cost factors, the model assists customers in making informed decisions about hardware procurement and infrastructure planning.",
+        "tags": ["Performance Metrics, Throughput, and Latency Analysis", "Hardware Tracking (GPUs and Specialized Hardware)", "Software Stack Assessment", "Hardware Configuration Comparisons by OEMs", "Reliability and Scalability Information", "Cost Analysis for Hardware Procurement"],
+        "tagscontent": ["Provides detailed evaluations of hardware performance, including computational throughput and latency measurements for various LLMs and algorithms, helping customers understand how different hardware options impact workload efficiency.", "Keeps up-to-date records of developments in GPUs and specialized HPC hardware, offering insights into new releases, technological advancements, and industry trends.", "Evaluates the software ecosystems compatible with each hardware type, outlining the pros and cons, integration challenges, and performance implications to guide customers in selecting the optimal software-hardware combinations.", "Compares different hardware configurations offered by Original Equipment Manufacturers (OEMs), highlighting variations in specifications, performance benchmarks, and suitability for specific applications.", "Assesses the reliability of hardware options and their ability to scale with growing computational demands, ensuring customers invest in solutions that meet both current and future requirements.", "Provides transparent cost evaluations for acquiring different hardware options, including initial procurement expenses and long-term operational costs, to support budget planning and financial decision-making."],
+        "keyBenefits": ["Empowers customers with detailed data to select hardware that best fits their performance needs and budget constraints.", "Helps maximize computational efficiency by matching workloads with the most suitable hardware and software stacks.", "Offers insights into hardware reliability and scalability, minimizing the risk of investing in suboptimal or short-lived technologies.", "Identifies cost-effective hardware solutions without compromising on performance, ensuring a higher return on investment."]
+    }
+    
+    
+]
+

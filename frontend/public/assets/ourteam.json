@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "Timothy Kelly",
+        "post": "Chief Executive Officer & Founder",
+        "description": ["Tim Kelly is a serial entrepreneur with over 20 years of expertise in financial markets. He founded Chatham Energy and built it into a leading energy derivatives brokerage firm. This culminated in the sale of Chatham to the Intercontinental Exchange (ICE) in 2007. While at ICE, he grew the natural gas derivatives franchise to be the leading global platform.",
+                        "Following his time at ICE, he founded Forward Insight Commodities, a brokerage firm that pioneered the delivery of actionable fundamental and volatility research on global energy markets. Tim led a successful exit to INTL FCStone in 2014.",
+                        "Tim is a graduate of Tufts University.",
+                        "He holds his Series 3, 4, 7, 24, 63 and 79 licenses with FINRA and NFA."
+                        ],
+        "profileUrl": "/assets/timkelly.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Dhyay Bhatt",
+        "post": "Head of Artificial Intelligence",
+        "description": ["Extensive hands-on experience with Language Models, Deep Learning, Computer Vision, and Quantitative Trading, driving innovation and performance in various AI applications.",
+                        "Founded and successfully exited a startup from 2019 to 2021, showcasing strong leadership and business acumen.",
+                        "Graduate of Duke University (MS) in Computer Science and University of Maryland (BS) Computer Science and QUEST Honors program."
+                        ],
+        "profileUrl": "/assets/dhyaybhatt.jpeg"
+    },
+
+    {
+        "id": 3,
+        "name": "Niraj Yagnik",
+        "post": "Lead Developer",
+        "description": ["Led key projects for India's largest telecommunications and private insurance companies, demonstrating proficiency in Software Development and Data Science.",
+                        "Master's in Computer Science from UC San Diego (UCSD), specialising in Artificial Intelligence.",
+                        "Four years of research experience in Machine Learning, Human-Computer Interaction, Explainability, and Natural Language Processing, resulting in 3 publications in prominent journals."
+                        ],
+        "profileUrl": "/assets/nirajyagnik.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Vivek Raman",
+        "post": "Managing Director, Head of Digital Assets",
+        "description": ["Vivek is leading BitOoda's Proof of Stake product suite focusing on the Ethereum, Decentralized Finance (DeFi), and Layer 2 ecosystems.",
+                        "He has 10 years of experience in sales, trading, and research for high yield and distressed credit products.",
+                        "He previously worked at Morgan Stanley, UBS, Deutsche Bank, and Nomura before entering the digital asset space.",
+                        "Vivek is a graduate of Yale University, where he graduated in three years with a degree in Economics.",
+                        "Vivek holds his Series 7, 57, and 79 licenses with FINRA."
+                        ],
+        "profileUrl": "/assets/vivekraman.jpg"
+    },
+    
+    {
+        "id": 5,
+        "name": "Tom Nath",
+        "post": "Chief Operating Officer",
+        "description": ["Tom Nath was a 20-year professional with the U.S. Intelligence Community, where he managed analysts and technical experts advising senior U.S. policy leaders.",
+                        "He is an expert on U.S. and international digital asset regulatory issues, as well as global digital finance developments. He represents BitOoda at panels and industry working groups, helping to develop codified digital asset standards.",
+                        "Tom is a graduate of Princeton University, has a Master's degree in international economics from Johns Hopkins University, and is a certified PMP.",
+                        "Completed FINRA's SIE."
+                        ],
+        "profileUrl": "/assets/tomnath.jpeg"
+    },
+
+    {
+        "id": 6,
+        "name": "David Bellman",
+        "post": "Power  & Commodity Research",
+        "description": ["David Bellman is a seasoned energy industry veteran with over 28 years of experience as an analyst, trader, consultant, and executive.",
+                        "His expertise lies in harnessing data to navigate complex energy markets and drive profitable investment strategies.",
+                        "Currently supporting BitOoda as Head of Research, David holds a Bachelor of Science in Chemical Engineering from the University of Texas at Austin."
+                        ],
+        "profileUrl": "/assets/davidbellman.jpeg"
+    },
+
+    {
+        "id": 7,
+        "name": "Michael Tauckus",
+        "post": "Co-Head of Brokerage & Trading",
+        "description": ["Over 25 years of experience in commodities trading and risk management, with an emphasis on volatility arbitrage.",
+                        "Built and ran a Treasury bond options group at the CBOT, and formed and managed multiple trading teams specializing in oil derivatives on the NYMEX & ICE.",
+                        "Expertise in dynamic hedging, volatility analysis & portfolio optimization.",
+                        "Graduate of Harvard University with a degree in Economics. Holds his Series 3 license with NFA and Series 7 and 57 licenses with FINRA."
+                        ],
+        "profileUrl": "/assets/miketaukus.jpeg"
+    },
+
+    {
+        "id": 8,
+        "name": "Erin McGuire",
+        "post": "Co-Head of Brokerage & Trading",
+        "description": ["Almost 30 years of experience in derivatives trading with focus on risk management and volatility arbitrage.",
+                        "Oversaw construction of proprietary pricing & trading model that utilized algorithm based trading & hedging strategies across the interest rate futures options curve and the E-mini S&P 500.",
+                        "Built and ran multiple trading groups, both in the trading pit on the floor at the CME and on screen-based trading.",
+                        "Started and ran an interest rate trading desk at the Sydney Futures Exchange.",
+                        "Graduate of The College of William and Mary with a BBA. Holds his Series 7, 24, and 57 licenses with FINRA."
+                        ],
+        "profileUrl": "/assets/erinmcguire.jpeg"
+    },
+
+    {
+        "id": 9,
+        "name": "Tom Rogers",
+        "post": "Head of Digital Operations",
+        "description": ["Over 20+ years of experience in operations, in the traditional finance, private equity, and the digital asset space. Covered spot and outright trading, derivatives, financing transactions, and blockchain settlements. Worked formerly at Lehman Brothers, JP Morgan, Tasset, and most recently at VersiFi and FalconX.",
+                        "Helped manage the operational unwind of the largest broker dealer bankruptcy in history, across numerous trade and asset types while working with regulators across the globe.",
+                        "Built out the support and infrastructure for the first real time, on-chain, payment platform, which is still in use today.",
+                        "Graduate of the The College of New Jersey."
+                        ],
+        "profileUrl": "/assets/tomrogers.jpeg"
+    },
+
+    {
+        "id": 10,
+        "name": "Adam Lambalot",
+        "post": "Head of Infrastructure",
+        "description": ["Extensive experience in cryptocurrency trading, operations and digital asset management across leading firms like Genesis Trading and Anchorage Digital.",
+                        "Managed global operations across multiple jurisdictions and settled over $10 billion in crypto/fiat transactions without operational losses.",
+                        "Developed tools and automated processes, including settlements, reconciliation engines, procurement software and trade dashboards"
+                        ],
+        "profileUrl": "/assets/adamlambalot.jpeg"
+    }
+]
+
