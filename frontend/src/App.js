@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ShowResearchDetails from './components/admin/ShowResearchDetails';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/admin/addpost" element={<AddPost />} />
+      <Route path="/admin/addpost/researchdetails" element={<ShowResearchDetails />} />
       <Route path="/ourteam" element={<OurTeamPage />} />
       <Route path="/research" element={<ResearchPage />} />
       <Route path="/research/:id" element={<InsideResearch />} />
