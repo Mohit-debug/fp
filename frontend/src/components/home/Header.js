@@ -18,7 +18,7 @@ function Header() {
         href="https://fpinfinity.xyz/" 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="mt-6 sm:mt-14 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-br from-purple-900 to-purple-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl sm:text-2xl text-center mb-2"
+        className="mt-6 sm:mt-14 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-br from-purple-900 to-purple-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl sm:text-2xl text-center mb-2 text-white no-underline"
       >
         Explore AI MarketPlace &gt;
       </a>

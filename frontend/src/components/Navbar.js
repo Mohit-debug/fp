@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import bitoodaIcon from "./assets/bitoodaIcon.png";
+import bitoodaIcon from "../components/assets/bitoodaIcon.png";
 
 function Navbar() {
   const [sticky, setSticky] = useState(false);
@@ -72,7 +72,7 @@ function Navbar() {
                 href={item.externalLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded hover:bg-gray-700 transition duration-200"
+                className="p-2 rounded hover:bg-gray-700 transition duration-200 text-white no-underline"
               >
                 {item.name}
               </a>
@@ -87,25 +87,26 @@ function Navbar() {
             ) : item.name === "Consulting" ? (
               <div key={item.name} className=" flex flex-col items-center">
                 <div className="flex items-center relative">
-                <button
-                  onClick={() => {
-                  
-                    navigate("/consulting");
-                  }}
-                  className="p-2 rounded hover:bg-gray-700 transition duration-200 flex items-center"
-                >{item.name}
+                  <button
+                    onClick={() => navigate("/consulting")}
+                    className="p-2 rounded hover:bg-gray-700 transition duration-200 flex items-center"
+                  >
+                    {item.name}
                   </button>
-                  
-                  <span onClick={() => {
-                    setDropdownOpen(!dropdownOpen);} } className="hover:cursor-pointer">{dropdownOpen ? "▲" : "▼"}</span>
+                  <span
+                    onClick={() => setDropdownOpen(!dropdownOpen)}
+                    className="hover:cursor-pointer"
+                  >
+                    {dropdownOpen ? "▲" : "▼"}
+                  </span>
                 </div>
                 {dropdownOpen && (
-                  <div className=" absolute top-10  bg-[#2a0530] text-white mt-2 w-64 shadow-lg rounded-lg">
+                  <div className="absolute top-10 bg-[#2a0530] text-white mt-4 w-64 shadow-lg rounded-lg">
                     {consultingTitles.map((title, index) => (
                       <a
                         key={index}
                         href={`/consulting#section-${index}`}
-                        className="block px-4 py-2 hover:bg-gray-700"
+                        className="block px-4 py-2 hover:bg-gray-700 text-white no-underline"
                       >
                         {title}
                       </a>
@@ -117,12 +118,26 @@ function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="p-2 rounded hover:bg-gray-700 transition duration-200"
+                className="p-2 rounded hover:bg-gray-700 transition duration-200 text-white no-underline"
               >
                 {item.name}
               </a>
             )
           )}
+
+          {/* Login and Sign Up Buttons */}
+          <button
+            onClick={() => navigate("/login")}
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
+          >
+            Login
+          </button>
+          <button
+            onClick={() => navigate("/register")}
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
+          >
+            Sign Up
+          </button>
         </div>
 
         {/* Mobile Hamburger Menu */}
@@ -159,7 +174,7 @@ function Navbar() {
                 href={item.externalLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded bg-gray-400 hover:bg-gray-700 transition duration-200"
+                className="p-2 rounded bg-gray-700 hover:bg-gray-700 transition duration-200 text-white no-underline"
               >
                 {item.name}
               </a>
@@ -167,7 +182,7 @@ function Navbar() {
               <button
                 key={item.name}
                 onClick={item.action}
-                className="p-2 rounded bg-gray-400 hover:bg-gray-700 transition duration-200"
+                className="p-2 rounded bg-gray-700 hover:bg-gray-700 transition duration-200 text-white no-underline"
               >
                 {item.name}
               </button>
@@ -175,12 +190,25 @@ function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="p-2 rounded bg-gray-400 hover:bg-gray-700 transition duration-200"
+                className="p-2 rounded bg-gray-700 hover:bg-gray-700 transition duration-200 text-white no-underline"
               >
                 {item.name}
               </a>
             )
           )}
+          {/* Login and Sign Up for Mobile */}
+          <button
+            onClick={() => navigate("/login")}
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
+          >
+            Login
+          </button>
+          <button
+            onClick={() => navigate("/register")}
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
+          >
+            Sign Up
+          </button>
         </div>
       )}
     </div>
